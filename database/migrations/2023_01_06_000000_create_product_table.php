@@ -28,6 +28,7 @@ class CreateProductTable extends Migration
             $table->string('NOMBRE_PRO', 30)->nullable()->default(null);
             $table->string('UNDAD_MEDIDA', 10)->nullable()->default(null);
             $table->date('FECHA_P')->nullable()->default(null);
+            $table->timestamps();
         });
     }
 

@@ -27,6 +27,7 @@ class CreateUbicacionTable extends Migration
             $table->string('TIPO', 20)->nullable()->default(null);
             $table->string('CAPACIDAD', 20)->nullable()->default(null);
             $table->string('ID_PLANTA', 10);
+            $table->timestamps();
 
             $table->index(["ID_PLANTA"], 'FK_ID_PLANTA_3');
 

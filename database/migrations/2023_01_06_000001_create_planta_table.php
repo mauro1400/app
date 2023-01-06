@@ -27,6 +27,7 @@ class CreatePlantaTable extends Migration
             $table->string('DESCIPCION', 20)->nullable()->default(null);
             $table->string('ENCARGADO', 20)->nullable()->default(null);
             $table->string('APELLIDO_ENC', 20)->nullable()->default(null);
+            $table->timestamps();
         });
     }
 

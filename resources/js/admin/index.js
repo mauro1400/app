@@ -1,3 +1,9 @@
 import './admin-user';
 import './profile-edit-profile';
 import './profile-edit-password';
+import './product';
+import './plantum';
+import './empleado';
+import './ubicacion';
+import './detalle';
+import './inventario';

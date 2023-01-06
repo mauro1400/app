@@ -34,6 +34,7 @@ class CreateEmpleadoTable extends Migration
             $table->float('SALARIO')->nullable()->default(null);
             $table->tinyInteger('SEXO')->nullable()->default(null);
             $table->string('ID_PLANTA', 10);
+            $table->timestamps();
 
             $table->index(["ID_PLANTA"], 'FK_ID_PLANTA_1');
 

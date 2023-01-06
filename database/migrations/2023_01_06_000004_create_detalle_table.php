@@ -29,6 +29,7 @@ class CreateDetalleTable extends Migration
             $table->unsignedInteger('COD_P');
             $table->string('ID_PLANTA', 10);
             $table->unsignedInteger('CI_EMPLEADO');
+            $table->timestamps();
 
             $table->index(["COD_P"], 'FK_COD_P_2');
 
